@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+}
+.main{
+    width:100%;
+    height:700px;
+    background: linear-gradient(rgb(47, 11, 146),white,rgb(47, 11, 146),white,rgb(47, 11, 146),white);
+}
+.div1{
+    width:150px;
+    height:150px;
+    margin-left: 500px;
+    background-color: pink;
+    border: 15px solid white; 
+    border-bottom-left-radius:200px ;
+    border-top-right-radius:200px ;
+    float:left;
+    position: absolute;
+    
+}
+.div2{
+    width:150px;
+    height:150px;
+    margin-left:700px;
+    background-color: pink;
+    border: 15px solid white; 
+    border-bottom-right-radius:200px ;
+    border-top-left-radius:200px ;
+    float:left;
+    position: absolute;
+    
+}
+.div3{
+    width:200px;
+    height:200px;
+    background-color: white;
+    border:5px solid pink;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 590px;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+}
+.div3_a{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    border-radius: 999px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;   
+}
+.div3_b{
+    width:20px;
+    height:20px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 999px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;   
+}
+.div3_c{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    border-radius: 999px;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 30px;
+
+}
+.div3_d{
+    width:20px;
+    height:20px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 999px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;   
+}
+.div3_e{
+    width:20px;
+    height:20px;
+    border: 4px solid black;
+    border-top-left-radius:100px ;
+    border-top-right-radius:100px ;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 87px;
+
+}
+.div3_f{
+    width:60px;
+    height:20px;
+    border: 4px solid black;
+    background-color: red;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 67px;
+
+}
+.div4{
+    width:35px;
+    height:45px;
+    border: 10px solid white;
+    background-color: pink;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    position: absolute;
+    margin-top: 410px;
+    margin-left:620px;
+
+}
+.div5{
+    width:35px;
+    height:45px;
+    border: 10px solid white;
+    background-color: pink;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    position: absolute;
+    margin-top: 410px;
+    margin-left:710px;
+
+}
+

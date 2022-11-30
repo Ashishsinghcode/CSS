@@ -1,0 +1,118 @@
+
+.main{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    animation: main 10s linear;
+    background-attachment: fixed;
+    animation-iteration-count: infinite;
+    
+}
+.wheel{
+    position: absolute;
+    margin-top: 146px;
+    margin-left: 57px;
+    animation: wheel 2s linear;
+    animation-iteration-count: infinite;
+    
+}
+.wheel1{
+    position: absolute;
+    margin-top: 146px;
+    margin-left: 325px;
+    animation: wheel 2s linear;
+    animation-iteration-count: infinite;
+    
+}
+.car{
+    position: absolute;
+}
+@keyframes main{
+    from{
+        top:0px;
+        left:0px;
+    }
+    to{
+        top:0%;
+        left:1600px;
+    }
+    
+}
+@keyframes wheel{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.main2{
+    margin-top: 300px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    animation: main2 10s linear;
+    background-attachment: fixed;
+    animation-iteration-count: infinite;
+    
+}
+.wheel2{
+    position: absolute;
+    margin-top: 146px;
+    margin-left: 85px;
+    animation: wheel 2s linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    
+}
+.wheel3{
+    position: absolute;
+    margin-top: 146px;
+    margin-left: 353px;
+    animation: wheel 2s linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    
+}
+.car2{
+    position: absolute;
+}
+@keyframes main2{
+    from{
+        top:0px;
+        left:1200px;
+    }
+    to{
+        top:0%;
+        left:0px;
+    }
+    
+}
+@keyframes wheel{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.road{
+    width:100%;
+    height:300px;
+}
+.roadimg{
+    width:100%;
+    height: 220px;
+}
+.road{
+    width:100%;
+    height:300px;
+}
+.roadimg2{
+    width:100%;
+    height: 220px;
+}
